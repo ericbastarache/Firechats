@@ -42,7 +42,6 @@
         </ul>
       </li>
       @endif
-
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
