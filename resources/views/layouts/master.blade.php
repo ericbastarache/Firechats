@@ -68,7 +68,9 @@
   <body>
     @include('partials/header')
 
-    @yield('content')
+    <div id="app">
+      @yield('content')
+    </div>
 
     @include('partials/footer')
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
