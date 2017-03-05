@@ -65,7 +65,7 @@
     </script>
 
   </head>
-  <body>
+  <body>    
     @include('partials/header')
 
     <div id="app">
