@@ -25,7 +25,7 @@ class ChatsController extends Controller
       $user = Auth::user();
 
       $message = $user->messages()->create([
-        'message' => $request->input('message');
+        'message' => $request->input('message')
       ]);
       
       broadcast(new MessageSent($user, $message))->toOthers();
